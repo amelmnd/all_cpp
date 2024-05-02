@@ -9,7 +9,6 @@ class MutantStack: public std::stack<T>
 {
 	public:
 		MutantStack(void){};
-		MutantStack(const MutantStack &src){};
 		~MutantStack(void){};
 
 		MutantStack &operator=(const MutantStack &src)
